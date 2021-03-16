@@ -1,0 +1,26 @@
+---
+backend:
+  name: git-gateway
+  repo: amykapernick/1y
+  branch: prod
+
+local_backend: true
+
+site_url: https://kapers.netlify.app
+
+collections:
+  - name: urls
+    label: Redirect URLs
+    label_singular: Redirect URL
+    folder: site/urls
+    extension: md
+    editor:
+      preview: false
+    identifier_field: slug
+    fields:
+      - label: Slug
+        name: slug
+        widget: string
+      - label: Redirect URL
+        name: url
+        widget: string
