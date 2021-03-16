@@ -1,5 +1,5 @@
 module.exports = {
-	permalink: '/{{ page.fileSlug }}/',
+	permalink: false,
 	layout: 'redirect.njk',
 	tags: 'urls'
 }

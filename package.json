@@ -7,7 +7,8 @@
   "scripts": {
     "start": "ELEVENTY_ENV=dev eleventy --serve",
     "build": "eleventy",
-    "clean": "rm -rf _site"
+    "clean": "rm -rf _site",
+    "dev:cms": "npx netlify-cms-proxy-server"
   },
   "devDependencies": {
     "@11ty/eleventy": "^0.11.0"
