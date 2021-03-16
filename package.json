@@ -1,0 +1,21 @@
+{
+  "name": "1y",
+  "description": "A short URL manager",
+  "version": "1.0.0",
+  "author": {
+    "name": "Nicolas Hoizey",
+    "email": "nicolas@hoizey.com",
+    "url": "https://nicolas-hoizey.com/",
+    "twitter": "nhoizey",
+    "github": "nhoizey"
+  },
+  "license": "MIT",
+  "scripts": {
+    "start": "rimraf _site && eleventy --serve",
+    "build": "rimraf _site && eleventy"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^0.11.0",
+    "rimraf": "^3.0.2"
+  }
+}
