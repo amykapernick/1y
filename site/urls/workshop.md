@@ -1,4 +1,4 @@
 ---
 slug: workshop
-url: https://github.com/amykapernick/front-end-web-fundamentals
+url: https://github.com/amykapernick/modern_front_end_fundamentals
 ---
