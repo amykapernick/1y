@@ -5,7 +5,7 @@ permalink: _redirects
 
 
 {%- for url in collections.urls -%}
-/{{ url.fileSlug }} {{ url.data.url }} 302
+/{{ url.fileSlug }} {{ url.data.url | safe }} 302
 {% endfor %}
 
 # Homepage Redirect

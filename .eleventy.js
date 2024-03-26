@@ -7,6 +7,10 @@ module.exports = function (eleventyConfig) {
 		input: "site/src/img/"
 	});
 
+	eleventyConfig.addFilter('log', value => {
+		console.log(value)
+	})
+
 	return {
 		dir: {
 			input: "site",
