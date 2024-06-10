@@ -1,4 +1,4 @@
 ---
 slug: workshop-semantichtml
-url: https://codepen.io/amys_kapers/pen/QWZxJBb/66d0d7cdadb477f9a9d6e9918db23fd9?editors=1000&layout=right
+url: https://kaperscrewe.notion.site/Semantic-HTML-2e842514a9db4390970e5910578f2bb4?pvs=4
 ---
