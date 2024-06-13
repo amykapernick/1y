@@ -1,4 +1,4 @@
 ---
 slug: nojs
-url: https://speaking.amyskapers.dev/LguDzr/your-website-does-not-need-javascript
+url: https://speaking.amyskapers.dev/lIyUGh/your-website-does-not-need-javascript
 ---
