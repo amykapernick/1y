@@ -5,12 +5,12 @@ on:
     branches:
       - prod
     paths:
-      - 'site/_data/urls.json'
+      - "site/_data/urls.json"
 
 jobs:
-	generate:
-		runs-on: ubuntu-latest
-		steps:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
       - uses: actions/checkout@v2
       - name: Generate QR Codes
         run: .github/actions/qrcode.sh
