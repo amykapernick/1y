@@ -2,10 +2,10 @@ name: Generate QR Codes
 
 on:
   push:
-	branches:
-	  - prod
-	paths:
-	  - 'site/_data/urls.json'
+    branches:
+      - prod
+    paths:
+      - 'site/_data/urls.json'
 
 jobs:
 	generate:
