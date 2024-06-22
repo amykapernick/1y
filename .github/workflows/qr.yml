@@ -1,0 +1,28 @@
+name: Generate QR Codes
+
+on:
+  push:
+	branches:
+	  - prod
+	paths:
+	  - 'site/_data/urls.json'
+
+jobs:
+	generate:
+		runs-on: ubuntu-latest
+		steps:
+      - uses: actions/checkout@v2
+      - name: Generate QR Codes
+        run: .github/actions/qrcode.sh
+      - name: Commit changes
+        uses: actions/github-script@v6
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            github.rest.git.createCommit({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              message: "Generated new QR codes",
+              tree: env.object_tree,
+              parents: [env.parent]
+            });
