@@ -14,6 +14,10 @@ jobs:
       - uses: actions/checkout@v2
       - name: Generate QR Codes
         run: .github/actions/qrcode.sh
+      - name: Set up git
+        run: |
+          git config --global user.name "${{ github.actor }}"
+          git config --global user.email "${{ github.actor }}@users.noreply.github.com"
       - run: git add -A && git commit -m "Generated new QR Codes"
       - name: Push changes
         env:
