@@ -15,28 +15,29 @@
 		const RedirectsPreview = createClass({
 			render: function () {
 				const siteUrl = this.props.entry.getIn(['data', 'domain'])
-				console.log({ siteUrl })
-				return h('div', {
+
+				return h('dl', {
 					class: 'preview_urls'
 				},
-					this.props.widgetsFor('redirects').map((redirect, index) => {
-						return h('details', { key: index },
-							h('summary',
+					this.props.widgetsFor('redirects').sort((a, b) => {
+						const slugA = a.getIn(['data', 'slug'])
+						const slugB = b.getIn(['data', 'slug'])
+						if (slugA < slugB) return -1
+						if (slugA > slugB) return 1
+						return 0
+
+					}).map((redirect, index) => {
+						return h('div', { key: index },
+							h('dt',
 								{},
-								h('strong', {},
-									redirect.getIn(['data', 'slug']),
-								),
-								' → ',
-								redirect.getIn(['data', 'url'])
-							),
-							h('p', {}, h('a', {
-								href: `${siteUrl}/${redirect.getIn(['data', 'slug'])}`,
-								target: '_blank'
-							},
 								siteUrl,
 								'/',
 								redirect.getIn(['data', 'slug']),
-							))
+							),
+							h('dd',
+								{},
+								redirect.getIn(['data', 'url'])
+							),
 						)
 					})
 				)
@@ -44,6 +45,9 @@
 		})
 
 		CMS.registerPreviewTemplate('urls', RedirectsPreview)
+	</script>
+	<script>
+
 	</script>
 </body>
 

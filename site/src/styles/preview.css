@@ -9,3 +9,7 @@ body {
 .preview_urls {
 	padding: 20px;
 }
+
+.preview_urls dt {
+	font-weight: 700;
+}
