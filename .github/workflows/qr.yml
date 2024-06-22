@@ -12,10 +12,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: Checkout Code on prod branch
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: gh pr checkout prod
       - name: Generate QR Codes
         run: .github/actions/qrcode.sh
       - run: git add -A && git commit -m "Generated new QR Codes"
