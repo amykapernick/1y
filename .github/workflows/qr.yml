@@ -11,18 +11,14 @@ jobs:
   generate:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - name: Checkout Code on prod branch
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh repo clone $GITHUB_REPOSITORY --branch prod -- --depth=1
       - name: Generate QR Codes
         run: .github/actions/qrcode.sh
-      - name: Commit new QR Codes
-        uses: actions/github-script@v6
-        with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-          script: |
-            github.rest.git.createCommit({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              message: "Generated new QR codes",
-              tree: env.object_tree,
-              parents: [env.parent]
-            });
+      - run: git add -A && git commit -m "Generated new QR Codes"
+      - name: Push changes
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: git push
