@@ -1,7 +1,7 @@
 data=$(cat ./site/_data/urls.json)
 domain=$(echo $data | jq -r '.domain')
 redirects=$(echo $data | jq -r '.redirects')
-lookup_md="# Redirects\n"
+lookup_md="# Redirects\\n\\n"
 
 for redirect in $(echo "${redirects}" | jq -r '.[] | @base64'); do
 	slug=$(echo ${redirect} | base64 --decode | jq -r '.slug')
