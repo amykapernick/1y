@@ -2,14 +2,12 @@
 permalink: _redirects
 ---
 
-
-
-{%- for url in collections.urls -%}
-/{{ url.fileSlug }} {{ url.data.url | safe }} 302
+{%- for url in urls.redirects -%}
+/{{ url.slug }} {{ url.data.url | safe }} 302
 {% endfor %}
 
 # Homepage Redirect
 / https://www.amyskapers.dev 302
 
 # Catch AllHomepageRedirecthttps
-/* /404 302*/
+/* /404 302

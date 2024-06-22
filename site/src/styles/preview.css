@@ -1,0 +1,11 @@
+@import './main.css';
+
+body {
+	font-size: 1em;
+	text-align: left;
+	font-weight: 500;
+} 
+
+.preview_urls {
+	padding: 20px;
+}

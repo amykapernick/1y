@@ -8,8 +8,43 @@
 </head>
 
 <body>
-	<!-- Include the script that builds the page and powers Netlify CMS -->
-	<script src="https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js"></script>
+	<script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
+	<script>
+		CMS.registerPreviewStyle("/styles/preview.css");
+
+		const RedirectsPreview = createClass({
+			render: function () {
+				const siteUrl = this.props.entry.getIn(['data', 'domain'])
+				console.log({ siteUrl })
+				return h('div', {
+					class: 'preview_urls'
+				},
+					this.props.widgetsFor('redirects').map((redirect, index) => {
+						return h('details', { key: index },
+							h('summary',
+								{},
+								h('strong', {},
+									redirect.getIn(['data', 'slug']),
+								),
+								' → ',
+								redirect.getIn(['data', 'url'])
+							),
+							h('p', {}, h('a', {
+								href: `${siteUrl}/${redirect.getIn(['data', 'slug'])}`,
+								target: '_blank'
+							},
+								siteUrl,
+								'/',
+								redirect.getIn(['data', 'slug']),
+							))
+						)
+					})
+				)
+			}
+		})
+
+		CMS.registerPreviewTemplate('urls', RedirectsPreview)
+	</script>
 </body>
 
 </html>

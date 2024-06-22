@@ -10,24 +10,29 @@ backend:
 
 local_backend: true
 
-media_folder: ""
+media_folder: "site/data/img"
 
-site_url: https://kapers.netlify.app
+site_url: https://kapers.dev
 
 collections:
-  - name: urls
+  - name: redirect_urls
     label: Redirect URLs
     label_singular: Redirect URL
-    folder: site/urls
-    extension: md
-    create: true
-    editor:
-      preview: false
-    identifier_field: slug
-    fields:
-      - label: Slug
-        name: slug
-        widget: string
-      - label: Redirect URL
-        name: url
-        widget: string
+    files:
+      - label: "Redirect URLs"
+        name: urls
+        file: "site/_data/urls.json"
+        fields:
+          - name: domain
+            widget: hidden
+            default: 'https://kapers.dev'
+          - label: Redirects
+            name: redirects
+            widget: list
+            fields:
+              - label: Slug
+                name: slug
+                widget: string
+              - label: Redirect URL
+                name: url
+                widget: string
