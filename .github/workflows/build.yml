@@ -4,11 +4,6 @@ on:
   push:
     branches:
       - prod
-    paths:
-      - "site/_data/urls.json"
-      - "site/src/img/qr_codes/*"
-      - "lookup.md"
-      - ".github/*"
 
 jobs:
   generate:
