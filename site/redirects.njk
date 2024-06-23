@@ -3,7 +3,7 @@ permalink: _redirects
 ---
 
 {%- for url in urls.redirects -%}
-/{{ url.slug }} {{ url.data.url | safe }} 302
+/{{ url.slug }} {{ url.url | safe }} 302
 {% endfor %}
 
 # Homepage Redirect
