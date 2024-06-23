@@ -2,7 +2,7 @@
 
 # Here we'll set the command to run, this is using the Netlify CLI using the deploy command. We'll pass in the environment variables for the site and auth token, and have set the output to come through as JSON
 # https://cli.netlify.com/commands/deploy
-COMMAND="npx netlify deploy --build --site ${SITE_ID} --auth ${TOKEN} --json"
+COMMAND="npx netlify-cli deploy --build --site ${SITE_ID} --auth ${TOKEN} --json"
 
 # Check if the production flag is included
 while getopts :d:p: opt;
