@@ -11,6 +11,7 @@
     "dev:cms": "npx netlify-cms-proxy-server"
   },
   "devDependencies": {
-    "@11ty/eleventy": "^2.0.1"
+    "@11ty/eleventy": "^2.0.1",
+    "netlify-cli": "^17.29.0"
   }
 }
