@@ -39,11 +39,20 @@ jobs:
       #     SITE_ID: ${{ secrets.SITE_ID }}
       #   run: ./.github/actions/netlify.sh --p true
       - run: npm install
-      - run: npm run build
+      # - run: npm run build
+      # - name: Publish
+      #   uses: netlify/actions/build@master
+      #   env:
+      #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      #     NETLIFY_SITE_ID: ${{ secrets.SITE_ID }}
+      #     NETLIFY_DIR: "_site"
+      #     NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_TOKEN }}
       - name: Publish
-        uses: netlify/actions/build@master
+        uses: South-Paw/action-netlify-cli@v2
+        id: netlify
+        with:
+          # be sure to escape any double quotes with a backslash
+          args: "deploy --build --json --prod"
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          NETLIFY_SITE_ID: ${{ secrets.SITE_ID }}
-          NETLIFY_DIR: "_site"
           NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_TOKEN }}
+          NETLIFY_SITE_ID: ${{ secrets.SITE_ID }}
