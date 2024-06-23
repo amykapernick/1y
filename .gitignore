@@ -107,3 +107,4 @@ dist
 .vscode-test
 
 _site
+.netlify
