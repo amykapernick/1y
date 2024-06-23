@@ -10,10 +10,6 @@
 			"url": "https://kaperscrewe.notion.site/Accessibility-Resources-3c87e3e6bdbe48aa927c4a15c230257a?pvs=73"
 		},
 		{
-			"slug": "a11y_shecodes",
-			"url": "https://codepen.io/amys_kapers/pen/PoQYrKg?editors=1010"
-		},
-		{
 			"slug": "conference-proposal-ideas",
 			"url": "https://www.notion.so/Conference-Proposal-Ideas-6e3a124b6e004e81896bc1be6e9c151f"
 		},
@@ -26,20 +22,12 @@
 			"url": "https://speaking.amyskapers.dev/z3xGbs/accessibility-is-by-everyone-and-for-everyone"
 		},
 		{
-			"slug": "deploy-preview",
-			"url": "https://65b3923bd92c78b2e8dc28ae--celebrated-gecko-4fec3c.netlify.app/"
-		},
-		{
 			"slug": "discord",
 			"url": "https://discord.gg/RgguE7vc"
 		},
 		{
-			"slug": "f2c",
-			"url": "https://speaking.amyskapers.dev/t9CciC/css-grid-what-is-this-magic"
-		},
-		{
 			"slug": "feedback",
-			"url": "https://amyskapers.dev/talks/feedback?talk=Your%20website%20does%20not%20need%20JavaScript&event=NDC%20Oslo%202024"
+			"url": ""
 		},
 		{
 			"slug": "fender-testing",
@@ -52,10 +40,6 @@
 		{
 			"slug": "headless-cms",
 			"url": "https://aimhigherweb.notion.site/ade7baf9adf54f6782e7245aa5b0f0da?v=a6d891dd55a4445ab3e77cf93941bd93"
-		},
-		{
-			"slug": "houses",
-			"url": "https://aimhigherweb.notion.site/770ffcf884b7499baa02c0be5295a344?v=b03fecad1be047779f4b1e138500dbd8"
 		},
 		{
 			"slug": "html-game",
@@ -72,10 +56,6 @@
 		{
 			"slug": "nojs",
 			"url": "https://speaking.amyskapers.dev/lIyUGh/your-website-does-not-need-javascript"
-		},
-		{
-			"slug": "oslo",
-			"url": "https://ndcoslo.com/workshops/front-end-web-fundamentals/2e2f93162bc3"
 		},
 		{
 			"slug": "post-workshop",
