@@ -18,8 +18,12 @@ if [ "$prod" = "true" ]; then
 	COMMAND="$COMMAND --prod"
 fi
 
+echo $COMMAND
+
 # Next we'll run the command, and save the output in another variable so we can access it
 OUTPUT=$($COMMAND)
+
+echo $OUTPUT
 
 # To parse the output from Netlify, the jq package allows us to fetch the different properties and save them as individual variables.
 # https://stedolan.github.io/jq/
@@ -27,6 +31,11 @@ NETLIFY_URL=$(jq -r '.deploy_url' <<<"${OUTPUT}")
 NETLIFY_LOGS=$(jq -r '.logs' <<<"${OUTPUT}")
 DEPLOY_ID=$(jq -r '.deploy_id' <<<"${OUTPUT}")
 SITE_NAME=$(jq -r '.site_name' <<<"${OUTPUT}")
+
+echo $NETLIFY_URL
+echo $NETLIFY_LOGS
+echo $DEPLOY_ID
+echo $SITE_NAME
 
 # Lastly we'll save the Netlify preview URL as an output parameter for the workflow step, so we can access it in future steps, eg. to add it as a comment on our PR
 # https://docs.github.com/en/actions/using-workflows/workflow-commands-for-github-actions#setting-an-output-parameter
