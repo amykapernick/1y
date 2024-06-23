@@ -1,4 +1,4 @@
-name: Generate QR Codes
+name: Generate QR Codes & Build Site
 
 on:
   push:
@@ -8,6 +8,7 @@ on:
       - "site/_data/urls.json"
       - "site/src/img/qr_codes/*"
       - "lookup.md"
+      - ".github/*"
 
 jobs:
   generate:
@@ -25,3 +26,15 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: git push
+      - name: Add Issues from Comments
+        uses: "alstr/todo-to-issue-action@v4"
+        with:
+          AUTO_ASSIGN: true
+          CLOSE_ISSUES: true
+
+      - name: Deploy to Netlify
+        id: build_site
+        env:
+          TOKEN: ${{ secrets.NETLIFY_TOKEN }}
+          SITE_ID: ${{ secrets.SITE_ID }}
+        run: ./.github/actions/netlify.sh --p true
