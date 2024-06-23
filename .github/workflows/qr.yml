@@ -6,6 +6,8 @@ on:
       - prod
     paths:
       - "site/_data/urls.json"
+      - "site/src/img/qr_codes/*"
+      - "lookup.md"
 
 jobs:
   generate:
