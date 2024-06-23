@@ -49,7 +49,7 @@
 
 </details>
 <details>
-<summary><strong>feedback</strong> → </summary>
+<summary><strong>feedback</strong> → https://amyskapers.dev</summary>
 
 [https://kapers.dev/feedback](https://kapers.dev/feedback)
 
