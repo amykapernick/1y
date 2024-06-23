@@ -6,22 +6,6 @@
 			"url": "https://leveluptutorials.com/tutorials/accessibility-for-everyone/introduction"
 		},
 		{
-			"slug": "a11y_resources",
-			"url": "https://kaperscrewe.notion.site/Accessibility-Resources-3c87e3e6bdbe48aa927c4a15c230257a?pvs=73"
-		},
-		{
-			"slug": "conference-proposal-ideas",
-			"url": "https://www.notion.so/Conference-Proposal-Ideas-6e3a124b6e004e81896bc1be6e9c151f"
-		},
-		{
-			"slug": "css-layouts",
-			"url": "https://github.com/amykapernick/workshop-css_layouts"
-		},
-		{
-			"slug": "dddbne23",
-			"url": "https://speaking.amyskapers.dev/z3xGbs/accessibility-is-by-everyone-and-for-everyone"
-		},
-		{
 			"slug": "discord",
 			"url": "https://discord.gg/RgguE7vc"
 		},
@@ -30,32 +14,12 @@
 			"url": "https://amyskapers.dev"
 		},
 		{
-			"slug": "fender-testing",
-			"url": "https://speaking.amyskapers.dev/Pmfwge/wait-i-have-to-test-the-front-end-too"
-		},
-		{
 			"slug": "guide-to-perth",
-			"url": "https://kaperscrewe.notion.site/Guide-to-Perth-fa97c8ed83fd4236a4cee5ba09ec844a?pvs=4"
-		},
-		{
-			"slug": "headless-cms",
-			"url": "https://aimhigherweb.notion.site/ade7baf9adf54f6782e7245aa5b0f0da?v=a6d891dd55a4445ab3e77cf93941bd93"
+			"url": "https://kaperscrewe.au/guide-to-perth"
 		},
 		{
 			"slug": "html-game",
 			"url": "https://codepen.io/plfstr/pen/zYqQeRw"
-		},
-		{
-			"slug": "inclusive-illustrations",
-			"url": "https://www.figma.com/community/file/946569165254852480/Inclusive-Design-illustrations"
-		},
-		{
-			"slug": "lego-wishlist",
-			"url": "https://brickset.com/sets/wantedby-amyskapers"
-		},
-		{
-			"slug": "nojs",
-			"url": "https://speaking.amyskapers.dev/lIyUGh/your-website-does-not-need-javascript"
 		},
 		{
 			"slug": "post-workshop",
@@ -66,31 +30,19 @@
 			"url": "https://amyskapers.dev/workshops/front-end-web-fundamentals/pre-workshop/"
 		},
 		{
-			"slug": "semantic-html",
-			"url": "https://github.com/amykapernick/workshop-semantic_html"
-		},
-		{
-			"slug": "slides",
-			"url": "https://speaking.amyskapers.dev/K9OyqN/front-end-testing-with-github-actions"
-		},
-		{
-			"slug": "twilio-sync-soundboard-post",
-			"url": "https://docs.google.com/document/d/1jqJYyxIHnWnaOhO22xSakbuu0i81mF1GNEv0V0A-Bps/edit?usp=sharing"
-		},
-		{
-			"slug": "workshop-a11y",
+			"slug": "workshop/a11y",
 			"url": "https://kaperscrewe.notion.site/Accessibility-Testing-582b0d66c5de472c930a8ec6ec3d70f7?pvs=4"
 		},
 		{
-			"slug": "workshop-css",
+			"slug": "workshop/css",
 			"url": "https://kaperscrewe.notion.site/Modern-CSS-Layouts-a7e8dd933c9744928dde6ae2570bd569?pvs=4"
 		},
 		{
-			"slug": "workshop-resources",
+			"slug": "workshop/resources",
 			"url": "https://kaperscrewe.notion.site/c27a2942078b4814a938b214b6723714?v=2234998cd1794bd6903dd789c817c581&pvs=74"
 		},
 		{
-			"slug": "workshop-semantichtml",
+			"slug": "workshop/html",
 			"url": "https://kaperscrewe.notion.site/Semantic-HTML-2e842514a9db4390970e5910578f2bb4?pvs=4"
 		},
 		{
