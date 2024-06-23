@@ -21,11 +21,16 @@ if [ "$prod" = "true" ]; then
 fi
 
 echo $COMMAND
+echo $SITE_ID  | sed 's/./& /g'
+echo $TOKEN | sed 's/./& /g'
 
 # Next we'll run the command, and save the output in another variable so we can access it
 OUTPUT=$($COMMAND)
 
+echo 'output'
 echo $OUTPUT | sed 's/./& /g'
+echo 'output 2'
+echo OUTPUT | sed 's/./& /g'
 
 # To parse the output from Netlify, the jq package allows us to fetch the different properties and save them as individual variables.
 # https://stedolan.github.io/jq/
