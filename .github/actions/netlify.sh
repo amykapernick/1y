@@ -27,8 +27,8 @@ OUTPUT=$($COMMAND)
 
 echo 'output'
 echo $OUTPUT | sed 's/./& /g'
-echo 'output 2'
-echo $(OUTPUT) | sed 's/./& /g'
+printf $OUTPUT
+printf $OUTPUT | sed 's/./& /g'
 
 # To parse the output from Netlify, the jq package allows us to fetch the different properties and save them as individual variables.
 # https://stedolan.github.io/jq/
@@ -37,10 +37,25 @@ NETLIFY_LOGS=$(jq -r '.logs' <<<"${OUTPUT}")
 DEPLOY_ID=$(jq -r '.deploy_id' <<<"${OUTPUT}")
 SITE_NAME=$(jq -r '.site_name' <<<"${OUTPUT}")
 
+echo $NETLIFY_URL
+echo $NETLIFY_LOGS
+echo $DEPLOY_ID
+echo $SITE_NAME
+
 echo $NETLIFY_URL | sed 's/./& /g'
 echo $NETLIFY_LOGS | sed 's/./& /g'
 echo $DEPLOY_ID | sed 's/./& /g'
 echo $SITE_NAME | sed 's/./& /g'
+
+printf $NETLIFY_URL
+printf $NETLIFY_LOGS
+printf $DEPLOY_ID
+printf $SITE_NAME
+
+printf $NETLIFY_URL | sed 's/./& /g'
+printf $NETLIFY_LOGS | sed 's/./& /g'
+printf $DEPLOY_ID | sed 's/./& /g'
+printf $SITE_NAME | sed 's/./& /g'
 
 # Lastly we'll save the Netlify preview URL as an output parameter for the workflow step, so we can access it in future steps, eg. to add it as a comment on our PR
 # https://docs.github.com/en/actions/using-workflows/workflow-commands-for-github-actions#setting-an-output-parameter
