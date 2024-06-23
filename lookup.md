@@ -1,10 +1,11 @@
 # Redirects
+
 <details>
 <summary><strong>a11y4everyone</strong> → https://leveluptutorials.com/tutorials/accessibility-for-everyone/introduction</summary>
 
 [https://kapers.dev/a11y4everyone](https://kapers.dev/a11y4everyone)
 
-![QR code for a11y4everyone](./site/src/img/qr_codes/a11y4everyone.png)
+![QR code for a11y4everyone](./site/src/img/qr_codes/a11y4everyone.svg)
 
 </details>
 <details>
@@ -12,15 +13,7 @@
 
 [https://kapers.dev/a11y_resources](https://kapers.dev/a11y_resources)
 
-![QR code for a11y_resources](./site/src/img/qr_codes/a11y_resources.png)
-
-</details>
-<details>
-<summary><strong>a11y_shecodes</strong> → https://codepen.io/amys_kapers/pen/PoQYrKg?editors=1010</summary>
-
-[https://kapers.dev/a11y_shecodes](https://kapers.dev/a11y_shecodes)
-
-![QR code for a11y_shecodes](./site/src/img/qr_codes/a11y_shecodes.png)
+![QR code for a11y_resources](./site/src/img/qr_codes/a11y_resources.svg)
 
 </details>
 <details>
@@ -28,7 +21,7 @@
 
 [https://kapers.dev/conference-proposal-ideas](https://kapers.dev/conference-proposal-ideas)
 
-![QR code for conference-proposal-ideas](./site/src/img/qr_codes/conference-proposal-ideas.png)
+![QR code for conference-proposal-ideas](./site/src/img/qr_codes/conference-proposal-ideas.svg)
 
 </details>
 <details>
@@ -36,7 +29,7 @@
 
 [https://kapers.dev/css-layouts](https://kapers.dev/css-layouts)
 
-![QR code for css-layouts](./site/src/img/qr_codes/css-layouts.png)
+![QR code for css-layouts](./site/src/img/qr_codes/css-layouts.svg)
 
 </details>
 <details>
@@ -44,15 +37,7 @@
 
 [https://kapers.dev/dddbne23](https://kapers.dev/dddbne23)
 
-![QR code for dddbne23](./site/src/img/qr_codes/dddbne23.png)
-
-</details>
-<details>
-<summary><strong>deploy-preview</strong> → https://65b3923bd92c78b2e8dc28ae--celebrated-gecko-4fec3c.netlify.app/</summary>
-
-[https://kapers.dev/deploy-preview](https://kapers.dev/deploy-preview)
-
-![QR code for deploy-preview](./site/src/img/qr_codes/deploy-preview.png)
+![QR code for dddbne23](./site/src/img/qr_codes/dddbne23.svg)
 
 </details>
 <details>
@@ -60,23 +45,15 @@
 
 [https://kapers.dev/discord](https://kapers.dev/discord)
 
-![QR code for discord](./site/src/img/qr_codes/discord.png)
+![QR code for discord](./site/src/img/qr_codes/discord.svg)
 
 </details>
 <details>
-<summary><strong>f2c</strong> → https://speaking.amyskapers.dev/t9CciC/css-grid-what-is-this-magic</summary>
-
-[https://kapers.dev/f2c](https://kapers.dev/f2c)
-
-![QR code for f2c](./site/src/img/qr_codes/f2c.png)
-
-</details>
-<details>
-<summary><strong>feedback</strong> → https://amyskapers.dev/talks/feedback?talk=Your%20website%20does%20not%20need%20JavaScript&event=NDC%20Oslo%202024</summary>
+<summary><strong>feedback</strong> → </summary>
 
 [https://kapers.dev/feedback](https://kapers.dev/feedback)
 
-![QR code for feedback](./site/src/img/qr_codes/feedback.png)
+![QR code for feedback](./site/src/img/qr_codes/feedback.svg)
 
 </details>
 <details>
@@ -84,7 +61,7 @@
 
 [https://kapers.dev/fender-testing](https://kapers.dev/fender-testing)
 
-![QR code for fender-testing](./site/src/img/qr_codes/fender-testing.png)
+![QR code for fender-testing](./site/src/img/qr_codes/fender-testing.svg)
 
 </details>
 <details>
@@ -92,7 +69,7 @@
 
 [https://kapers.dev/guide-to-perth](https://kapers.dev/guide-to-perth)
 
-![QR code for guide-to-perth](./site/src/img/qr_codes/guide-to-perth.png)
+![QR code for guide-to-perth](./site/src/img/qr_codes/guide-to-perth.svg)
 
 </details>
 <details>
@@ -100,15 +77,7 @@
 
 [https://kapers.dev/headless-cms](https://kapers.dev/headless-cms)
 
-![QR code for headless-cms](./site/src/img/qr_codes/headless-cms.png)
-
-</details>
-<details>
-<summary><strong>houses</strong> → https://aimhigherweb.notion.site/770ffcf884b7499baa02c0be5295a344?v=b03fecad1be047779f4b1e138500dbd8</summary>
-
-[https://kapers.dev/houses](https://kapers.dev/houses)
-
-![QR code for houses](./site/src/img/qr_codes/houses.png)
+![QR code for headless-cms](./site/src/img/qr_codes/headless-cms.svg)
 
 </details>
 <details>
@@ -116,7 +85,7 @@
 
 [https://kapers.dev/html-game](https://kapers.dev/html-game)
 
-![QR code for html-game](./site/src/img/qr_codes/html-game.png)
+![QR code for html-game](./site/src/img/qr_codes/html-game.svg)
 
 </details>
 <details>
@@ -124,7 +93,7 @@
 
 [https://kapers.dev/inclusive-illustrations](https://kapers.dev/inclusive-illustrations)
 
-![QR code for inclusive-illustrations](./site/src/img/qr_codes/inclusive-illustrations.png)
+![QR code for inclusive-illustrations](./site/src/img/qr_codes/inclusive-illustrations.svg)
 
 </details>
 <details>
@@ -132,7 +101,7 @@
 
 [https://kapers.dev/lego-wishlist](https://kapers.dev/lego-wishlist)
 
-![QR code for lego-wishlist](./site/src/img/qr_codes/lego-wishlist.png)
+![QR code for lego-wishlist](./site/src/img/qr_codes/lego-wishlist.svg)
 
 </details>
 <details>
@@ -140,15 +109,7 @@
 
 [https://kapers.dev/nojs](https://kapers.dev/nojs)
 
-![QR code for nojs](./site/src/img/qr_codes/nojs.png)
-
-</details>
-<details>
-<summary><strong>oslo</strong> → https://ndcoslo.com/workshops/front-end-web-fundamentals/2e2f93162bc3</summary>
-
-[https://kapers.dev/oslo](https://kapers.dev/oslo)
-
-![QR code for oslo](./site/src/img/qr_codes/oslo.png)
+![QR code for nojs](./site/src/img/qr_codes/nojs.svg)
 
 </details>
 <details>
@@ -156,7 +117,7 @@
 
 [https://kapers.dev/post-workshop](https://kapers.dev/post-workshop)
 
-![QR code for post-workshop](./site/src/img/qr_codes/post-workshop.png)
+![QR code for post-workshop](./site/src/img/qr_codes/post-workshop.svg)
 
 </details>
 <details>
@@ -164,7 +125,7 @@
 
 [https://kapers.dev/pre-workshop](https://kapers.dev/pre-workshop)
 
-![QR code for pre-workshop](./site/src/img/qr_codes/pre-workshop.png)
+![QR code for pre-workshop](./site/src/img/qr_codes/pre-workshop.svg)
 
 </details>
 <details>
@@ -172,7 +133,7 @@
 
 [https://kapers.dev/semantic-html](https://kapers.dev/semantic-html)
 
-![QR code for semantic-html](./site/src/img/qr_codes/semantic-html.png)
+![QR code for semantic-html](./site/src/img/qr_codes/semantic-html.svg)
 
 </details>
 <details>
@@ -180,7 +141,7 @@
 
 [https://kapers.dev/slides](https://kapers.dev/slides)
 
-![QR code for slides](./site/src/img/qr_codes/slides.png)
+![QR code for slides](./site/src/img/qr_codes/slides.svg)
 
 </details>
 <details>
@@ -188,7 +149,7 @@
 
 [https://kapers.dev/twilio-sync-soundboard-post](https://kapers.dev/twilio-sync-soundboard-post)
 
-![QR code for twilio-sync-soundboard-post](./site/src/img/qr_codes/twilio-sync-soundboard-post.png)
+![QR code for twilio-sync-soundboard-post](./site/src/img/qr_codes/twilio-sync-soundboard-post.svg)
 
 </details>
 <details>
@@ -196,7 +157,7 @@
 
 [https://kapers.dev/workshop-a11y](https://kapers.dev/workshop-a11y)
 
-![QR code for workshop-a11y](./site/src/img/qr_codes/workshop-a11y.png)
+![QR code for workshop-a11y](./site/src/img/qr_codes/workshop-a11y.svg)
 
 </details>
 <details>
@@ -204,7 +165,7 @@
 
 [https://kapers.dev/workshop-css](https://kapers.dev/workshop-css)
 
-![QR code for workshop-css](./site/src/img/qr_codes/workshop-css.png)
+![QR code for workshop-css](./site/src/img/qr_codes/workshop-css.svg)
 
 </details>
 <details>
@@ -212,7 +173,7 @@
 
 [https://kapers.dev/workshop-resources](https://kapers.dev/workshop-resources)
 
-![QR code for workshop-resources](./site/src/img/qr_codes/workshop-resources.png)
+![QR code for workshop-resources](./site/src/img/qr_codes/workshop-resources.svg)
 
 </details>
 <details>
@@ -220,7 +181,7 @@
 
 [https://kapers.dev/workshop-semantichtml](https://kapers.dev/workshop-semantichtml)
 
-![QR code for workshop-semantichtml](./site/src/img/qr_codes/workshop-semantichtml.png)
+![QR code for workshop-semantichtml](./site/src/img/qr_codes/workshop-semantichtml.svg)
 
 </details>
 <details>
@@ -228,7 +189,7 @@
 
 [https://kapers.dev/workshop](https://kapers.dev/workshop)
 
-![QR code for workshop](./site/src/img/qr_codes/workshop.png)
+![QR code for workshop](./site/src/img/qr_codes/workshop.svg)
 
 </details>
 
