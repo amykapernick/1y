@@ -1,5 +1,4 @@
 # Redirects
-
 <details>
 <summary><strong>a11y4everyone</strong> → https://leveluptutorials.com/tutorials/accessibility-for-everyone/introduction</summary>
 
