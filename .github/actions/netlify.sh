@@ -5,12 +5,14 @@
 COMMAND="netlify deploy --build --site ${SITE_ID} --auth ${TOKEN} --json"
 
 # Check if the production flag is included
-while getopts p: flag
+while getopts :d:p: opt;
 do
-	case "${flag}" in
+	case "${opt}" in
 		p) prod=${OPTARG};;
 	esac
 done
+
+echo $prod
 
 # TODO: Fix prod command
 # If this is a production build, add the production flag to the netlify build command
@@ -23,7 +25,7 @@ echo $COMMAND
 # Next we'll run the command, and save the output in another variable so we can access it
 OUTPUT=$($COMMAND)
 
-echo $OUTPUT
+echo $OUTPUT | sed 's/./& /g'
 
 # To parse the output from Netlify, the jq package allows us to fetch the different properties and save them as individual variables.
 # https://stedolan.github.io/jq/
@@ -32,10 +34,10 @@ NETLIFY_LOGS=$(jq -r '.logs' <<<"${OUTPUT}")
 DEPLOY_ID=$(jq -r '.deploy_id' <<<"${OUTPUT}")
 SITE_NAME=$(jq -r '.site_name' <<<"${OUTPUT}")
 
-echo $NETLIFY_URL
-echo $NETLIFY_LOGS
-echo $DEPLOY_ID
-echo $SITE_NAME
+echo $NETLIFY_URL | sed 's/./& /g'
+echo $NETLIFY_LOGS | sed 's/./& /g'
+echo $DEPLOY_ID | sed 's/./& /g'
+echo $SITE_NAME | sed 's/./& /g'
 
 # Lastly we'll save the Netlify preview URL as an output parameter for the workflow step, so we can access it in future steps, eg. to add it as a comment on our PR
 # https://docs.github.com/en/actions/using-workflows/workflow-commands-for-github-actions#setting-an-output-parameter

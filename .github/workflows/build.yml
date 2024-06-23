@@ -34,4 +34,4 @@ jobs:
         env:
           TOKEN: ${{ secrets.NETLIFY_TOKEN }}
           SITE_ID: ${{ secrets.SITE_ID }}
-        run: ./.github/actions/netlify.sh --p true
+        run: ./.github/actions/netlify.sh -p
