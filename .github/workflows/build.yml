@@ -32,9 +32,18 @@ jobs:
       #   with:
       #     AUTO_ASSIGN: true
       #     CLOSE_ISSUES: true
-      - name: Deploy to Netlify
-        id: build_site
+      # - name: Deploy to Netlify
+      #   id: build_site
+      #   env:
+      #     TOKEN: ${{ secrets.NETLIFY_TOKEN }}
+      #     SITE_ID: ${{ secrets.SITE_ID }}
+      #   run: ./.github/actions/netlify.sh --p true
+      # - run: npm install
+      # - run: npm run build
+      - name: Publish
+        uses: netlify/actions/build@master
         env:
-          TOKEN: ${{ secrets.NETLIFY_TOKEN }}
-          SITE_ID: ${{ secrets.SITE_ID }}
-        run: ./.github/actions/netlify.sh --p true
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NETLIFY_SITE_ID: ${{ secrets.SITE_ID }}
+          NETLIFY_DIR: "_site"
+          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_TOKEN }}
