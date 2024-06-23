@@ -38,8 +38,8 @@ jobs:
       #     TOKEN: ${{ secrets.NETLIFY_TOKEN }}
       #     SITE_ID: ${{ secrets.SITE_ID }}
       #   run: ./.github/actions/netlify.sh --p true
-      # - run: npm install
-      # - run: npm run build
+      - run: npm install
+      - run: npm run build
       - name: Publish
         uses: netlify/actions/build@master
         env:
