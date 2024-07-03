@@ -96,4 +96,12 @@
 ![QR code for workshop](./site/src/img/qr_codes/workshop.svg)
 
 </details>
+<details>
+<summary><strong>speaking/resources</strong> → https://kaperscrewe.notion.site/Speaking-Resources-ac3378daafeb4bdcace6b7d678781418?pvs=4</summary>
+
+[https://kapers.dev/speaking/resources](https://kapers.dev/speaking/resources)
+
+![QR code for speaking/resources](./site/src/img/qr_codes/speaking/resources.svg)
+
+</details>
 
