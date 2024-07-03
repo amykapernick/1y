@@ -1,53 +1,57 @@
 {
-	"domain": "https://kapers.dev",
-	"redirects": [
-		{
-			"slug": "a11y4everyone",
-			"url": "https://leveluptutorials.com/tutorials/accessibility-for-everyone/introduction"
-		},
-		{
-			"slug": "discord",
-			"url": "https://discord.gg/RgguE7vc"
-		},
-		{
-			"slug": "feedback",
-			"url": "https://amyskapers.dev"
-		},
-		{
-			"slug": "guide-to-perth",
-			"url": "https://kaperscrewe.au/guide-to-perth"
-		},
-		{
-			"slug": "html-game",
-			"url": "https://codepen.io/plfstr/pen/zYqQeRw"
-		},
-		{
-			"slug": "post-workshop",
-			"url": "https://amyskapers.dev/workshops/front-end-web-fundamentals/post-workshop/"
-		},
-		{
-			"slug": "pre-workshop",
-			"url": "https://amyskapers.dev/workshops/front-end-web-fundamentals/pre-workshop/"
-		},
-		{
-			"slug": "workshop/a11y",
-			"url": "https://kaperscrewe.notion.site/Accessibility-Testing-582b0d66c5de472c930a8ec6ec3d70f7?pvs=4"
-		},
-		{
-			"slug": "workshop/css",
-			"url": "https://kaperscrewe.notion.site/Modern-CSS-Layouts-a7e8dd933c9744928dde6ae2570bd569?pvs=4"
-		},
-		{
-			"slug": "workshop/resources",
-			"url": "https://kaperscrewe.notion.site/c27a2942078b4814a938b214b6723714?v=2234998cd1794bd6903dd789c817c581&pvs=74"
-		},
-		{
-			"slug": "workshop/html",
-			"url": "https://kaperscrewe.notion.site/Semantic-HTML-2e842514a9db4390970e5910578f2bb4?pvs=4"
-		},
-		{
-			"slug": "workshop",
-			"url": "https://github.com/amykapernick/modern_front_end_fundamentals"
-		}
-	]
+  "domain": "https://kapers.dev",
+  "redirects": [
+    {
+      "slug": "a11y4everyone",
+      "url": "https://leveluptutorials.com/tutorials/accessibility-for-everyone/introduction"
+    },
+    {
+      "slug": "discord",
+      "url": "https://discord.gg/RgguE7vc"
+    },
+    {
+      "slug": "feedback",
+      "url": "https://amyskapers.dev"
+    },
+    {
+      "slug": "guide-to-perth",
+      "url": "https://kaperscrewe.au/guide-to-perth"
+    },
+    {
+      "slug": "html-game",
+      "url": "https://codepen.io/plfstr/pen/zYqQeRw"
+    },
+    {
+      "slug": "post-workshop",
+      "url": "https://amyskapers.dev/workshops/front-end-web-fundamentals/post-workshop/"
+    },
+    {
+      "slug": "pre-workshop",
+      "url": "https://amyskapers.dev/workshops/front-end-web-fundamentals/pre-workshop/"
+    },
+    {
+      "slug": "workshop/a11y",
+      "url": "https://kaperscrewe.notion.site/Accessibility-Testing-582b0d66c5de472c930a8ec6ec3d70f7?pvs=4"
+    },
+    {
+      "slug": "workshop/css",
+      "url": "https://kaperscrewe.notion.site/Modern-CSS-Layouts-a7e8dd933c9744928dde6ae2570bd569?pvs=4"
+    },
+    {
+      "slug": "workshop/resources",
+      "url": "https://kaperscrewe.notion.site/c27a2942078b4814a938b214b6723714?v=2234998cd1794bd6903dd789c817c581&pvs=74"
+    },
+    {
+      "slug": "workshop/html",
+      "url": "https://kaperscrewe.notion.site/Semantic-HTML-2e842514a9db4390970e5910578f2bb4?pvs=4"
+    },
+    {
+      "slug": "workshop",
+      "url": "https://github.com/amykapernick/modern_front_end_fundamentals"
+    },
+    {
+      "slug": "speaking/resources",
+      "url": "https://kaperscrewe.notion.site/Speaking-Resources-ac3378daafeb4bdcace6b7d678781418?pvs=4"
+    }
+  ]
 }
