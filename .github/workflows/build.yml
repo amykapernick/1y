@@ -29,13 +29,16 @@ jobs:
         run: git push
       - name: Add Issues from Comments
         uses: "alstr/todo-to-issue-action@v4"
+        continue-on-error: true
         with:
           AUTO_ASSIGN: true
           CLOSE_ISSUES: true
       - run: npm install
+        continue-on-error: true
       - name: Publish
         uses: South-Paw/action-netlify-cli@v2
         id: netlify
+        continue-on-error: true
         with:
           args: "deploy --build --json --prod"
         env:

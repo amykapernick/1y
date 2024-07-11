@@ -13,6 +13,8 @@ for redirect in $(echo "${redirects}" | jq -r '.[] | @base64'); do
 		continue
 	fi
 
+	# TODO: Check if the subfolder already exists and make it if necessary
+
 	npx qrcode "${domain}/${slug}" -t svg -q 1 -o "site/src/img/qr_codes/${slug}.svg"
 done
 

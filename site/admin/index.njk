@@ -48,7 +48,7 @@
 									),
 									h('a', {
 										href: `https://kapers.dev/img/qr_codes/${redirect.getIn(['data', 'slug'])}.svg`,
-										download: `qr_${redirect.getIn(['data', 'slug'])}.svg`
+										download: `qr_${redirect.getIn(['data', 'slug']).replace('/', '__')}.svg`
 									},
 										h('span', {
 											style: {
@@ -71,9 +71,6 @@
 		})
 
 		CMS.registerPreviewTemplate('urls', RedirectsPreview)
-	</script>
-	<script>
-
 	</script>
 </body>
 
