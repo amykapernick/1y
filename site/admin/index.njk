@@ -36,8 +36,34 @@
 							),
 							h('dd',
 								{},
-								redirect.getIn(['data', 'url'])
-							),
+								redirect.getIn(['data', 'url']),
+								h('details', {},
+									h('summary', {},
+										'QR Code ',
+										h('code', {},
+											'https://kapers.dev/img/qr_codes/',
+											redirect.getIn(['data', 'slug']),
+											'.svg'
+										)
+									),
+									h('a', {
+										href: `https://kapers.dev/img/qr_codes/${redirect.getIn(['data', 'slug'])}.svg`,
+										download: `qr_${redirect.getIn(['data', 'slug'])}.svg`
+									},
+										h('span', {
+											style: {
+												display: 'none'
+											}
+										}, 'Download QR Code'),
+										h('img', {
+											src: `https://kapers.dev/img/qr_codes/${redirect.getIn(['data', 'slug'])}.svg`,
+											width: '200',
+											height: '200',
+											alt: ""
+										})
+									),
+								)
+							)
 						)
 					})
 				)
