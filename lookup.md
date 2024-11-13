@@ -104,4 +104,12 @@
 ![QR code for speaking/resources](./site/src/img/qr_codes/speaking/resources.svg)
 
 </details>
+<details>
+<summary><strong>a11y_shecodes</strong> → https://codepen.io/amys_kapers/pen/gOvYKxv?editors=1000</summary>
+
+[https://kapers.dev/a11y_shecodes](https://kapers.dev/a11y_shecodes)
+
+![QR code for a11y_shecodes](./site/src/img/qr_codes/a11y_shecodes.svg)
+
+</details>
 
