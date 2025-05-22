@@ -112,4 +112,12 @@
 ![QR code for a11y_shecodes](./site/src/img/qr_codes/a11y_shecodes.svg)
 
 </details>
+<details>
+<summary><strong>a11y_resources</strong> → https://kaperscrewe.notion.site/05777a7190404e6d9cb60a36ca68f3ad?v=10168b0c6ef04e7fb95933ffc8624985&pvs=4</summary>
+
+[https://kapers.dev/a11y_resources](https://kapers.dev/a11y_resources)
+
+![QR code for a11y_resources](./site/src/img/qr_codes/a11y_resources.svg)
+
+</details>
 
