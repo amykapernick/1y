@@ -17,7 +17,7 @@
 
 </details>
 <details>
-<summary><strong>feedback</strong> → https://amyskapers.dev</summary>
+<summary><strong>feedback</strong> → https://amyskapers.dev/feedback</summary>
 
 [https://kapers.dev/feedback](https://kapers.dev/feedback)
 
